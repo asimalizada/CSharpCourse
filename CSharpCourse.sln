@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "If-Else", "If-Else\If-Else.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays - Loops", "Arrays - Loops\Arrays - Loops.csproj", "{D1C61906-97E9-403D-95F3-4CA743A36504}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String Methods", "String Methods\String Methods.csproj", "{2D651CD3-7952-4D27-8528-CF3163FBE984}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{DE83AAA4-AEDE-472C-8BB8-1FE07474E69F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{D1C61906-97E9-403D-95F3-4CA743A36504}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1C61906-97E9-403D-95F3-4CA743A36504}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1C61906-97E9-403D-95F3-4CA743A36504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D651CD3-7952-4D27-8528-CF3163FBE984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D651CD3-7952-4D27-8528-CF3163FBE984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D651CD3-7952-4D27-8528-CF3163FBE984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D651CD3-7952-4D27-8528-CF3163FBE984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE83AAA4-AEDE-472C-8BB8-1FE07474E69F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE83AAA4-AEDE-472C-8BB8-1FE07474E69F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE83AAA4-AEDE-472C-8BB8-1FE07474E69F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE83AAA4-AEDE-472C-8BB8-1FE07474E69F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
