@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Inheritance;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -32,7 +33,7 @@ namespace OOP
     }
     class Student
     {
-        public string Name { get; set; }
+        public string Name { get; set; } 
         public string Surname { get; set; } //auto-property
         public int Age
         {
@@ -47,9 +48,17 @@ namespace OOP
     {
         static void Main(string[] args)
         {
+            Employee employee = new Employee();
+
             Teacher teacher = new Teacher();
             Teacher teacher1 = new Teacher();
             Student student = new Student();
+            Student student1 = new Student  // instance of a class
+            {
+                BirthDate = new DateTime(12, 12, 2002),
+                Name = "Ümüd",
+                Surname = "İskəndərov"
+            };
 
             teacher.Name = "Asim";
             teacher.Surname = "Alizade";
@@ -65,6 +74,7 @@ namespace OOP
             student.Surname = "Musayeva";
             student.BirthDate = new DateTime(2002, 1, 31);
 
+            int a = 5;
 
             Console.WriteLine(student.Age);
         }

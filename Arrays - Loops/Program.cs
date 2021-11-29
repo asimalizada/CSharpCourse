@@ -22,6 +22,16 @@ namespace Arrays___Loops
             //nums[3] = 3;
             //nums[4] = 4;
 
+            int a = 5, b = 6, c = 7;
+
+            //int[] array = new int[3];
+            //array[0] = a;
+            //array[1] = b;
+            //array[2] = c;
+
+            int[] array = { a, b, c };
+
+
             //int[] example = new int[4] { 1, 2, 3, 4 };
 
             //int[,] matrix = 
