@@ -24,7 +24,6 @@ namespace Example1
                 };
                 textGenerator.AddToFullText(text);
                 Console.WriteLine(textGenerator.FullText);
-
             }
            
         }
