@@ -23,6 +23,9 @@ namespace Abstraction
             // plug & play
 
             Console.ReadLine();
+
+            //MyAbstractClass cl = new MyAbstractClass();
+
         }
     }
 
@@ -116,6 +119,19 @@ namespace Abstraction
         public override void Print()
         {
             Console.WriteLine("Here is Director");
+        }
+    }
+
+    abstract class MyAbstractClass
+    {
+        public abstract void Test();
+    }
+
+    class DerivedClass : MyAbstractClass
+    {
+        public override void Test()
+        {
+            
         }
     }
 
