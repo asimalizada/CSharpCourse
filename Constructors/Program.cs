@@ -54,14 +54,13 @@ namespace Constructors
 
     public class Operation
     {
-        private int _a;
-        private int _b;
+        private readonly int _a;
+        private readonly int _b;
 
-        
         public Operation()
         {
         }
-        public Operation(int a, int b)
+        public Operation(int a, int b)  // Constructor injection
         {
             this._a = a;
             this._b = b;
