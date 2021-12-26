@@ -84,7 +84,7 @@ namespace Lists
             keyValuePairs.Add(1, "Employees");
             keyValuePairs.Add(2, "Students");
 
-            //System.Console.WriteLine(keyValuePairs[int.Parse(System.Console.ReadLine())]);
+            System.Console.WriteLine(keyValuePairs[int.Parse(System.Console.ReadLine())]);
 
             var dictionary = new Dictionary<string, string>();
             dictionary.Add("kitab", "book");
@@ -98,8 +98,8 @@ namespace Lists
             //dictionary.Values;
             //dictionary.Keys;
 
-            dictionary.ContainsKey("");
-            dictionary.ContainsValue("");
+            dictionary.ContainsKey("BOOK");
+            dictionary.ContainsValue("TEST");
 
             dictionary.Remove("");
 
@@ -118,6 +118,10 @@ namespace Lists
         static void Sum(int n)
         {
             _sumOfThem += n;
+
+            if (true) return;
+
+
         }
     }
 }
