@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{93A56DED-4E28-420F-8885-AEF829D6E130}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{8F18EFBC-3A7B-4BFA-B65C-370C7CFE7F1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Action - Func", "Action - Func\Action - Func.csproj", "{E2AB0EE1-D35A-4F75-A4D5-BF939879F4F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{93A56DED-4E28-420F-8885-AEF829D6E130}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93A56DED-4E28-420F-8885-AEF829D6E130}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93A56DED-4E28-420F-8885-AEF829D6E130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F18EFBC-3A7B-4BFA-B65C-370C7CFE7F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F18EFBC-3A7B-4BFA-B65C-370C7CFE7F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F18EFBC-3A7B-4BFA-B65C-370C7CFE7F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F18EFBC-3A7B-4BFA-B65C-370C7CFE7F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2AB0EE1-D35A-4F75-A4D5-BF939879F4F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2AB0EE1-D35A-4F75-A4D5-BF939879F4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2AB0EE1-D35A-4F75-A4D5-BF939879F4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2AB0EE1-D35A-4F75-A4D5-BF939879F4F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
